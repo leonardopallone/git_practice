@@ -30,7 +30,7 @@ end
 
 def menu
   puts '1: Enter git command'.colorize(:cyan)
-  puts '2: Exit'.colorize(:red)
+  puts '2: Exit'.colorize(:blue)
   choice = gets.to_i
   case choice
   when 1
